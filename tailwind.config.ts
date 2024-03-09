@@ -8,10 +8,33 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        cloud: "cloud-animation infinite linear",
+        fadeOut: "fadeOut linear forwards",
+      },
+      keyframes: {
+        "cloud-animation": {
+          "0%": { transform: "translateX(-100%)" },
+          "50%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(200%)" },
+        },
+        fadeOut: {
+          "0%": { opacity: "1" },
+          "100%": { opacity: "0" },
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+    },
+    colors: {
+      color: {
+        primary: "#F0F4EF",
+        secondary: "#344966",
+        accent: "#B4CDED",
+        dark: "#0D1821",
       },
     },
   },
