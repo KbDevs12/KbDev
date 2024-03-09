@@ -14,8 +14,7 @@ const config: Config = {
       },
       keyframes: {
         "cloud-animation": {
-          "0%": { transform: "translateX(-100%)" },
-          "50%": { transform: "translateX(100%)" },
+          "0%": { transform: "translateX(-200%)" },
           "100%": { transform: "translateX(200%)" },
         },
         fadeOut: {

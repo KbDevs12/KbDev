@@ -8,10 +8,8 @@ const Project = () => {
         className="flex flex-col items-center bg-color-secondary"
         id="project"
       >
-        <div className="relative w-full">
-          <Cloud x={-100} y={100} speed={20} />
-          <Cloud x={300} y={200} speed={20} />
-          <Cloud x={-200} y={300} speed={20} />
+        <div className="relative w-screen">
+          <Cloud />
         </div>
         <p
           data-aos="fade-down"

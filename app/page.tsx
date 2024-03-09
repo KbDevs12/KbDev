@@ -5,7 +5,7 @@ import About from "./about/about";
 export default function Home() {
   return (
     <main>
-      <div>
+      <div className="overflow-x-hidden">
         <HeadMenu />
         <Project />
         <About />
