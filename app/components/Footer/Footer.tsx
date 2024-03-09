@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-color-dark via-color-secondary to-color-accent py-8">
+    <footer className="bg-color-dark py-8">
       <div className="px-4 pt-4">
         <p className="text-color-primary text-xl">References: </p>
         <Link
