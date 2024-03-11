@@ -31,8 +31,8 @@ const Navbar = () => {
   return (
     <nav
       className={`${
-        isScrolled ? "bg-color-dark" : ""
-      } fixed top-0 w-full z-50 transition-colors duration-500`}
+        isScrolled ? "bg-color-menus" : ""
+      } fixed top-0 w-full z-50 transition-colors duration-300`}
     >
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex md:flex-row md:justify-around justify-between items-center h-16">
@@ -40,7 +40,7 @@ const Navbar = () => {
             <Link
               href="/"
               className={`text-${
-                isScrolled ? "color-accent" : "color-dark"
+                isScrolled ? "color-accent2" : "color-primary"
               } md:text-lg font-semibold text-md hover:text-color-secondary transition-all duration-300`}
             >
               Aditya Putra
@@ -49,23 +49,23 @@ const Navbar = () => {
           <div
             className={`md:hidden ${
               isOpen ? "transform translate-x-0" : "transform translate-x-full"
-            } absolute left-0 top-16 pt-2 w-full bg-color-dark z-10 transition-transform duration-500`}
+            } absolute left-0 top-16 pt-2 w-full bg-color-menus z-10 transition-transform duration-500`}
           >
             <Link
               href="#home"
-              className="block px-4 py-2 text-color-accent hover:text-opacity-70 text-md "
+              className="block px-4 py-2 text-color-accent2 hover:text-opacity-70 text-md "
             >
               Home
             </Link>
             <Link
               href="#project"
-              className="block px-4 py-2 text-color-accent hover:text-opacity-70 text-md "
+              className="block px-4 py-2 text-color-accent2 hover:text-opacity-70 text-md "
             >
               Project
             </Link>
             <Link
               href="#about"
-              className="block px-4 py-2 text-color-accent hover:text-opacity-70 text-md "
+              className="block px-4 py-2 text-color-accent2 hover:text-opacity-70 text-md "
             >
               About
             </Link>
@@ -74,7 +74,7 @@ const Navbar = () => {
             <Link
               href="#home"
               className={`text-${
-                isScrolled ? "color-accent" : "color-dark"
+                isScrolled ? "color-accent2" : "color-primary"
               } md:text-lg font-semibold text-md hover:text-color-secondary transition-all duration-300`}
             >
               Home
@@ -82,7 +82,7 @@ const Navbar = () => {
             <Link
               href="#project"
               className={`text-${
-                isScrolled ? "color-accent" : "color-dark"
+                isScrolled ? "color-accent2" : "color-primary"
               } md:text-lg font-semibold text-md hover:text-color-secondary transition-all duration-300`}
             >
               Project
@@ -90,7 +90,7 @@ const Navbar = () => {
             <Link
               href="#about"
               className={`text-${
-                isScrolled ? "color-accent" : "color-dark"
+                isScrolled ? "color-accent2" : "color-primary"
               } md:text-lg font-semibold text-md hover:text-color-secondary transition-all duration-300`}
             >
               About

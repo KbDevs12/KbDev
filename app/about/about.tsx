@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="bg-color-accent py-10 px-4 sm:px-6 lg:px-8" id="about">
+    <div className="bg-color-primary py-10 px-4 sm:px-6 lg:px-8" id="about">
       <div className="max-w-7xl mx-auto">
         <div className="sm:text-center lg:text-left">
           <h2
@@ -34,7 +34,7 @@ const About = () => {
             <Link
               data-aos="zoom-in-left"
               href="https://discord.com/users/698069399285792848"
-              className="flex items-center justify-center py-2 px-4 rounded-lg shadow-md bg-color-primary hover:bg-color-accent"
+              className="flex items-center justify-center py-2 px-4 rounded-lg shadow-md bg-color-primary hover:bg-color-accent2"
               style={{ backdropFilter: "blur(8px)" }}
             >
               <DiscordLogo size={24} />
@@ -43,7 +43,7 @@ const About = () => {
             <Link
               data-aos="zoom-in-down"
               href="https://github.com/KbDevs12/"
-              className="flex items-center justify-center py-2 px-4 rounded-lg shadow-md bg-color-primary hover:bg-color-accent"
+              className="flex items-center justify-center py-2 px-4 rounded-lg shadow-md bg-color-primary hover:bg-color-accent2"
               style={{ backdropFilter: "blur(8px)" }}
             >
               <GithubLogo size={24} />
@@ -52,7 +52,7 @@ const About = () => {
             <Link
               data-aos="zoom-in-down"
               href="https://www.instagram.com/adttptra_11/"
-              className="flex items-center justify-center py-2 px-4 rounded-lg shadow-md bg-color-primary hover:bg-color-accent"
+              className="flex items-center justify-center py-2 px-4 rounded-lg shadow-md bg-color-primary hover:bg-color-accent2"
               style={{ backdropFilter: "blur(8px)" }}
             >
               <InstagramLogo size={24} />
@@ -61,7 +61,7 @@ const About = () => {
             <Link
               data-aos="zoom-in-right"
               href="https://www.youtube.com/c/KangBasoDevelopment"
-              className="flex items-center justify-center py-2 px-4 rounded-lg shadow-md bg-color-primary hover:bg-color-accent"
+              className="flex items-center justify-center py-2 px-4 rounded-lg shadow-md bg-color-primary hover:bg-color-accent2"
               style={{ backdropFilter: "blur(8px)" }}
             >
               <YoutubeLogo size={24} />

@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-color-dark py-8">
+    <footer className="bg-color-secondary py-8">
       <div className="px-4 pt-4">
         <p className="text-color-primary text-xl">References: </p>
         <Link
@@ -13,21 +13,15 @@ const Footer = () => {
           vann.my.id
         </Link>
         <div>
-          <p className="text-color-primary text-lg pt-5">
-            Photo by
+          <p className="text-color-primary text-lg pt-10">
+            Image by
             <Link
               className="text-color-primary text-lg pt-4 hover:underline"
-              href="https://unsplash.com/@neom?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+              href="https://www.freepik.com/free-vector/modern-city-cartoon-vector-night-landscape_4394140.htm#query=city%20purple&position=5&from_view=keyword&track=ais&uuid=11482ee7-5848-4048-9f9f-26dedfba6d3b"
             >
-              &nbsp;NEOM
+              &nbsp;vectorpouch
             </Link>
-            &nbsp;on
-            <Link
-              className="text-color-primary text-lg pt-4 hover:underline"
-              href="https://unsplash.com/photos/a-person-standing-on-top-of-a-cliff-207NEuFvjlg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-            >
-              &nbsp;Unsplash
-            </Link>
+            &nbsp;on freeepik
           </p>
         </div>
       </div>

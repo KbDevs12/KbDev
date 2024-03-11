@@ -11,15 +11,17 @@ export default function Cloud() {
       const awan = self.selector!(".cloud");
 
       for (const Cloud of awan) {
+        const direction = Math.random() > 0.5 ? 1 : -1;
         gsap
           .fromTo(
             Cloud,
             {
-              x: -500,
+              x: direction === 1 ? -500 : window.innerWidth + 500,
               opacity: Math.floor(Math.random() * (90 - 70 + 1) + 70) / 100,
+              scaleX: direction === 1 ? 1 : -1,
             },
             {
-              x: window.innerWidth,
+              x: direction === 1 ? window.innerWidth + 500 : -500,
               duration: Math.floor(Math.random() * (30 - 20 + 1) + 20),
               repeat: -1,
               ease: "none",

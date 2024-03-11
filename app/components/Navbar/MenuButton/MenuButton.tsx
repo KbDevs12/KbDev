@@ -1,4 +1,4 @@
-import { List } from "@phosphor-icons/react";
+import { Sling as Hamburger } from "hamburger-react";
 import { useState, useEffect } from "react";
 const MenuButton = ({ isOpen, toggleMenu }: any) => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,9 +22,25 @@ const MenuButton = ({ isOpen, toggleMenu }: any) => {
   return (
     <div className="md:hidden hover:opacity-70" onClick={toggleMenu}>
       {isScrolled ? (
-        <List size={32} color="#B4CDED" weight="fill" />
+        <Hamburger
+          toggled={isOpen}
+          toggle={toggleMenu}
+          size={32}
+          direction="right"
+          duration={1}
+          color="rgba(27,239,197,0.75)"
+          rounded
+        />
       ) : (
-        <List size={32} color="#0D1821" weight="fill" />
+        <Hamburger
+          toggled={isOpen}
+          toggle={toggleMenu}
+          size={32}
+          direction="right"
+          duration={1}
+          color="#F0F4EF"
+          rounded
+        />
       )}
     </div>
   );

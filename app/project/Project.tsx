@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <>
       <div
-        className="flex flex-col items-center bg-color-secondary"
+        className="flex flex-col items-center bg-gradient-to-b from-color-menus to-color-secondary"
         id="project"
       >
         <div className="relative w-screen">
@@ -30,8 +30,9 @@ const Project = () => {
           data-aos="zoom-out-up"
           src="/city_4.png"
           alt=""
-          width={1024}
-          height={1024}
+          width={2000}
+          height={2000}
+          className=" w-full h-96 md:h-72 object-cover"
         />
       </div>
     </>

@@ -31,9 +31,11 @@ const config: Config = {
     colors: {
       color: {
         primary: "#F0F4EF",
-        secondary: "#344966",
+        secondary: "#4d1d85",
         accent: "#B4CDED",
         dark: "#0D1821",
+        accent2: "rgba(27,239,197,0.75)",
+        menus: "#200e35",
       },
     },
   },
